@@ -1,0 +1,103 @@
+body {
+  background-color: #FAF6F0;
+  color: #5e4533;
+  font-family: Georgia, serif;
+  margin: 0;
+}
+
+.navbar {
+  --bs-navbar-color: #5c4433;
+  --bs-navbar-hover-color: #553313;
+  --bs-navbar-brand-color: #693415;
+  --bs-navbar-brand-hover-color: #684a14;
+  background-color: #E8D8C3;
+  border-bottom: 3px solid #682813;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #C1654A;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+}
+
+
+.btn-terracota {
+  --bs-btn-color: #FAF6F0;
+  --bs-btn-bg: #C1654A;
+  --bs-btn-border-color: #C1654A;
+  --bs-btn-hover-color: #FAF6F0;
+  --bs-btn-hover-bg: #6F4E37;
+  --bs-btn-hover-border-color: #6F4E37;
+}
+
+
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2380D8FF'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2380D8FF'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.nome-loja {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--bs-navbar-brand-color);
+}
+
+@media (min-width: 992px) {
+  .nome-loja {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.categoria {
+  display: block;
+  text-decoration: none;
+  color: #5e4533;
+}
+
+.categoria img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #E8D8C3;
+}
+
+.categoria p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.categoria:hover {
+  color: #C1654A;
+}
+
+
+.img-croche {
+    width: 100%;
+    height: auto;              
+    max-height: 500px;          
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;         
+}
